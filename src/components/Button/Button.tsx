@@ -7,7 +7,7 @@ interface Props extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children"
 
 const Button = ({ text, icon, ...rest }: Props) => {
 	return (
-		<button {...rest} className="custom-button">
+		<button {...rest}>
 			{text}
 			{icon}
 		</button>

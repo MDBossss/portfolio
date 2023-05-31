@@ -22,7 +22,7 @@ const Introduction = () => {
             </div>
         </div>
         <div className="resume">
-            <Button text="Resume" icon={<AiOutlineDownload style={{fontSize:"22px"}}/>}/>
+            <Button className="button" text="Resume" icon={<AiOutlineDownload style={{fontSize:"22px"}}/>}/>
         </div>
     </div>
   )
