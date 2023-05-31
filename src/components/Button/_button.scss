@@ -8,8 +8,13 @@
     border-radius: 4px;
     font-weight: 400;
     color:white;
-    background-color: $primary-color;
+    background: $primary-color;
     outline:none;
     border:none;
     cursor: pointer;
+    transition:background 0.3s ease;
+
+    &:hover{
+        background: linear-gradient(120deg, $primary-color, $secondary-color);
+    }
 }
