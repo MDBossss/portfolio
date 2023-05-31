@@ -1,0 +1,40 @@
+.slide-icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	width: 50px;
+	height: 64px;
+
+	.icon {
+		font-size: 40px;
+		color: $text-color;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.name {
+		font-size: 14px;
+		font-weight: 400;
+		color: $text-color;
+	}
+
+	&:hover {
+		.icon {
+			background: linear-gradient(120deg, $primary-color, $secondary-color);
+			background-clip: border-box;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			color: $primary-color;
+		}
+
+		.name {
+			background: linear-gradient(120deg, $primary-color, $secondary-color);
+			background-clip: border-box;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+}
