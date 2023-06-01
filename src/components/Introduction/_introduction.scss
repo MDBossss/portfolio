@@ -24,7 +24,7 @@
             transition: border-bottom 0.3s ease-in-out;
 
 			&:hover {
-				border-bottom: 1px solid black;
+				border-bottom: 1px solid $text-color;
 			}
 		}
 	}
