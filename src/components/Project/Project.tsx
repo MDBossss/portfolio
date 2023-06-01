@@ -21,7 +21,7 @@ const Project = ({ project }: Props) => {
 			</div>
 			<div className="top">
 				<div className="left">
-					<img src={project.image} alt="showcase" />
+					<a href={project.demoLink}><img src={project.image} alt="showcase"/></a>
 				</div>
 				<div className="right">
 					<div className="title">
