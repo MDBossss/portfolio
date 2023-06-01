@@ -34,7 +34,7 @@ const About = () => {
 								title="High School Diploma"
 							>
 								<Text color="dimmed" size="sm">
-									Technial School Ruđer Bošković
+									Technical School Ruđer Bošković
 								</Text>
 								<Text size="xs" mt={4}>
 									2017 - 2021
