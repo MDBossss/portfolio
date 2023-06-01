@@ -35,7 +35,7 @@ const Introduction = () => {
 			<div className="resume">
 				<Button
 					className="button"
-					text="Resume"
+					text="Download CV"
 					icon={<AiOutlineDownload style={{ fontSize: "22px" }} />}
 				/>
 			</div>

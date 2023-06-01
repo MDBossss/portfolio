@@ -1,3 +1,4 @@
+import About from "./components/About/About"
 import Background from "./components/Background/Background"
 import Introduction from "./components/Introduction/Introduction"
 import TechStack from "./components/TechStack/TechStack"
@@ -11,6 +12,7 @@ function App() {
         <Introduction/>
       </div>
       <TechStack/>
+      <About/>
     </div>
   )
 }
