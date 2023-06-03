@@ -4,7 +4,7 @@ import { Timeline, Text } from "@mantine/core";
 
 const About = () => {
 	return (
-		<div className="container about">
+		<div id="about" className="container about">
 			<h3>ABOUT ME.</h3>
 			<div className="content">
 				<div className="left">

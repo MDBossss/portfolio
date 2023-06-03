@@ -18,10 +18,17 @@ const Project = ({ project }: Props) => {
 		<div className="project">
 			<div className="project-number">
 				<h3>{`PROJECT_0${project.id}`}</h3>
+				<div className="tech-wrapper">
+					{project.techStack.map((tech) => (
+						<p className="tech">{tech}</p>
+					))}
+				</div>
 			</div>
 			<div className="top">
 				<div className="left">
-					<a href={project.demoLink}><img src={project.image} alt="showcase"/></a>
+					<a href={project.demoLink}>
+						<img src={project.image} alt="showcase" />
+					</a>
 				</div>
 				<div className="right">
 					<div className="title">
@@ -42,11 +49,6 @@ const Project = ({ project }: Props) => {
 					</div>
 				</div>
 			</div>
-			{/* <div className="bottom">
-				{project.techStack.map((tech) => (
-					<p className="tech">{tech}</p>
-				))}
-			</div> */}
 		</div>
 	);
 };

@@ -12,6 +12,9 @@
 	gap: 20px;
 
 	.project-number {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		h3 {
 			width: fit-content;
 			font-size: 16px;
@@ -20,6 +23,22 @@
 			background-clip: border-box;
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
+		}
+
+		.tech-wrapper {
+			display: flex;
+			gap: 5px;
+
+			.tech {
+				// box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+				display: flex;
+				align-items: center;
+				font-size: 12px;
+				padding: 2px 10px;
+				border-radius: 999999999999px;
+				border: 1px solid $text-color;
+				color: $text-color;
+			}
 		}
 	}
 
@@ -47,18 +66,17 @@
 
 			.title {
 				h2 {
-					font-size: 20px;
+					font-size: 24px;
 					font-weight: 500;
 					line-height: 20px;
 				}
 			}
 
-
 			.links {
 				display: flex;
 				justify-content: space-between;
 				gap: 40px;
-                margin-top: auto;
+				margin-top: auto;
 
 				.link {
 					display: flex;
@@ -76,26 +94,12 @@
 						-webkit-background-clip: text;
 						-webkit-text-fill-color: transparent;
 
-                        .icon{
-                            color:$secondary-color;
-                        }
+						.icon {
+							color: $secondary-color;
+						}
 					}
 				}
 			}
-		}
-	}
-
-	.bottom {
-		display: flex;
-		gap: 5px;
-		font-size: 14px;
-
-		.tech {
-			// box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-			padding: 2px 10px;
-			border-radius: 999999999999px;
-			background-color: $text-color;
-			color: white;
 		}
 	}
 }

@@ -18,13 +18,13 @@
 		gap: 43px;
 		margin-bottom: 100px;
 
-		p {
+		a {
 			cursor: pointer;
 			border-bottom: 1px solid transparent;
             transition: border-bottom 0.3s ease-in-out;
 
 			&:hover {
-				border-bottom: 1px solid $text-color;
+				border-bottom: 1px solid $text-color !important;
 			}
 		}
 	}

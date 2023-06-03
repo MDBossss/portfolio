@@ -17,7 +17,7 @@ const projects = [
         description: "Hotcoin is a React project focused on cryptocurrency data. Using multiple api's it displays latest crypto-related news as well as top 100 cryptocurrencies along with their price data. The app utilizes Firebase for user auth and data storage.",
         githubLink: "https://github.com/MDBossss/hotcoin",
         demoLink: "https://hotcoin.vercel.app/",
-        techStack: ["React","Firebase"],
+        techStack: ["React","SASS","Firebase"],
         image: "/hotcoin.png"
     },
     {
@@ -32,8 +32,8 @@ const projects = [
     
     {
         id: 4,
-        title: "Span Hackathon 2023",
-        description: "This is an unfinished full stack cyber security app made by a team of 5 during Span's 24h Hackathon, which got awarded 3rd place. Built with React + Vite, SASS, Firebase, Node.js, Express.js, MySQL. ",
+        title: "Span Hackathon 2023 app",
+        description: "This is a full stack cyber security dashboard app made by a team of 5 during Span's 24h Hackathon, which got awarded 3rd place. Built with React + Vite, SASS, Firebase, Node.js, Express.js, MySQL. ",
         githubLink: "https://github.com/Lovakovic/spanHackathon",
         demoLink: "https://hotcoin.vercel.app/",
         techStack: ["React + Vite","SASS", "Firebase", "Node.js","Express.js","MySQL"],
@@ -44,7 +44,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="container projects">
+    <div id="projects" className="container projects">
         {projects.map((project) => (
             <Project key={project.id} project={project}/>
         ))}

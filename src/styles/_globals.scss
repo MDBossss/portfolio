@@ -9,7 +9,7 @@
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-	width: 16px;
+	width: 12px;
 }
 
 *::-webkit-scrollbar-track {
@@ -19,13 +19,17 @@
 *::-webkit-scrollbar-thumb {
 	background-color: #d1d1d1;
 	border-radius: 10px;
-	border: 3px solid #ffffff;
+	border: none;
 }
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
 }
 
 body {
