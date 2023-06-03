@@ -6,8 +6,8 @@ const Introduction = () => {
 	return (
 		<div className="container introduction">
 			<div className="links">
-				<p>About me</p>
-				<p>Projects</p>
+				<a href="#about">About me</a>
+				<a href="#projects">Projects</a>
 			</div>
 			<div className="hero">
 				<div className="left">
@@ -33,11 +33,11 @@ const Introduction = () => {
 				</div>
 			</div>
 			<div className="resume">
-				<Button
+				<a href="/MislavDobrinicCV.pdf" download="MislavDobrinicCV.pdf"><Button
 					className="button"
-					text="Resume"
+					text="Download CV"
 					icon={<AiOutlineDownload style={{ fontSize: "22px" }} />}
-				/>
+				/></a>
 			</div>
 		</div>
 	);
