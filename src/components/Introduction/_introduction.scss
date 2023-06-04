@@ -127,3 +127,36 @@
         
 	}
 }
+
+@include small-screen{
+	.introduction{
+		margin: 20px;
+		padding: 16px;
+		.hero{
+			flex-direction: column-reverse;
+
+			.left{
+				text-align: center;
+				h1{
+					font-size: 33px;
+					line-height: 35px;
+				}
+
+				.socials{
+					justify-content: center;
+				}
+			}
+
+			.right{
+				img{
+					max-width: 200px;
+				}
+			}
+		}
+
+		.resume{
+			display: flex;
+			justify-content: center;
+		}
+	}
+}

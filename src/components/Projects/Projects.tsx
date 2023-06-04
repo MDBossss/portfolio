@@ -35,7 +35,7 @@ const projects = [
         title: "Span Hackathon 2023 app",
         description: "This is a full stack cyber security dashboard app made by a team of 5 during Span's 24h Hackathon, which got awarded 3rd place. Built with React + Vite, SASS, Firebase, Node.js, Express.js, MySQL. ",
         githubLink: "https://github.com/Lovakovic/spanHackathon",
-        demoLink: "https://hotcoin.vercel.app/",
+        demoLink: "https://shiny-duckanoo-86358f.netlify.app/",
         techStack: ["React + Vite","SASS", "Firebase", "Node.js","Express.js","MySQL"],
         image: "/hackathon.png"
     },

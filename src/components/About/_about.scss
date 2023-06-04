@@ -76,3 +76,21 @@
 		}
 	}
 }
+
+@include small-screen{
+	.about{
+		padding: 16px;
+		margin: 20px;
+		.content{
+			flex-direction: column-reverse;
+			text-align: center;
+
+			.left{
+				.title{
+					width: 100%;
+					justify-content: center;
+				}
+			}
+		}
+	}
+}

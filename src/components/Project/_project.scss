@@ -103,3 +103,23 @@
 		}
 	}
 }
+
+@include small-screen{
+	.project{
+		margin: 20px;
+		padding: 16px;
+
+		.project-number{
+			justify-content: center;
+
+			.tech-wrapper{
+				display:none;
+			}
+		}
+
+		.top{
+			flex-direction: column;
+			gap: 10px;
+		}
+	}
+}

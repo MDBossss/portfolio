@@ -19,14 +19,14 @@ const Project = ({ project }: Props) => {
 			<div className="project-number">
 				<h3>{`PROJECT_0${project.id}`}</h3>
 				<div className="tech-wrapper">
-					{project.techStack.map((tech) => (
-						<p className="tech">{tech}</p>
+					{project.techStack.map((tech,index) => (
+						<p className="tech" key={index}>{tech}</p>
 					))}
 				</div>
 			</div>
 			<div className="top">
 				<div className="left">
-					<a href={project.demoLink}>
+					<a href={project.demoLink} target="_blank">
 						<img src={project.image} alt="showcase" />
 					</a>
 				</div>
