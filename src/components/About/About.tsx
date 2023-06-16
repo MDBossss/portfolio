@@ -15,7 +15,7 @@ const About = () => {
 					<p>
 						I am a Junior Front-End Developer currently pursuing a Bachelor's degree in Computer
 						Science at Zagreb University of Applied Sciences. With a strong skill set encompassing
-						HTML, CSS, JavaScript, TypeScript, React, Tailwind, and SCSS, I am adept at creating and
+						HTML, CSS, JavaScript, TypeScript, React and SCSS, I am adept at creating and
 						managing responsive websites that provide users with a seamless experience. My focus is
 						on crafting engaging interfaces by employing clean and optimized code, utilizing the
 						latest development tools and techniques. I thrive in collaborative environments and

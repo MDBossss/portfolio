@@ -1,6 +1,6 @@
 import TechIcon from "../TechIcon/TechIcon"
 import {FaHtml5,FaCss3Alt,FaSass,FaReact} from "react-icons/fa";
-import {SiTailwindcss,SiJavascript,SiTypescript,SiMysql,SiFirebase,SiSupabase} from "react-icons/si";
+import {SiJavascript,SiTypescript,SiMysql,SiFirebase,SiSupabase} from "react-icons/si";
 
 const TechStack = () => {
   return (
@@ -9,7 +9,7 @@ const TechStack = () => {
             <TechIcon text="HTML" icon={<FaHtml5/>}/>
             <TechIcon text="CSS" icon={<FaCss3Alt/>}/>
             <TechIcon text="Sass" icon={<FaSass/>}/>
-            <TechIcon text="Tailwind" icon={<SiTailwindcss/>}/>
+            {/* <TechIcon text="Tailwind" icon={<SiTailwindcss/>}/> */}
             <TechIcon text="Javascript" icon={<SiJavascript/>}/>
             <TechIcon text="Typescript" icon={<SiTypescript/>}/>
             <TechIcon text="React" icon={<FaReact/>}/>
