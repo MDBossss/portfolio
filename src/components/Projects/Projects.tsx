@@ -25,7 +25,7 @@ const projects = [
         title: "xoOnline",
         description: "xoOnline is a simple tic-tac-toe game with online multiplayer support where players can create new rooms and seamlessly connect to existing ones with a quick-join feature. Built using React + Vite, SASS, Node.js, Express.js and socket.io",
         githubLink: "https://github.com/MDBossss/xoOnline",
-        demoLink: "https://hotel-hub-client.vercel.app/",
+        demoLink: "https://xo-online.vercel.app/",
         techStack: ["React + Vite","SASS", "Node.js", "Express.js","socket.io"],
         image: "/xoonline.png"
     },
