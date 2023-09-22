@@ -12,12 +12,12 @@ const Introduction = () => {
 			<div className="hero">
 				<div className="left">
 					<h1>
-						<span>Hello, I'm Mislav.</span> <br /> Front-End React{" "}
+						<span>Hello, I'm Mislav.</span> <br /> Full-stack Web{" "}
 						<span className="gradient">Developer.</span>
 					</h1>
 					<p className="small-about">
-						With a keen eye for detail and a passion for clean code, I focus on
-						developing rich web applications and seamless web experiences.
+						With a keen eye for detail and a passion for clean code, I focus on developing rich web
+						applications and seamless web experiences.
 					</p>
 					<div className="socials">
 						<a href="https://github.com/MDBossss" target="_blank">
@@ -33,11 +33,13 @@ const Introduction = () => {
 				</div>
 			</div>
 			<div className="resume">
-				<a href="/MislavDobrinicCV.pdf" download="MislavDobrinicCV.pdf"><Button
-					className="button"
-					text="Download CV"
-					icon={<AiOutlineDownload style={{ fontSize: "22px" }} />}
-				/></a>
+				<a href="/MislavDobrinicCV.pdf" download="MislavDobrinicCV.pdf">
+					<Button
+						className="button"
+						text="Download CV"
+						icon={<AiOutlineDownload style={{ fontSize: "22px" }} />}
+					/>
+				</a>
 			</div>
 		</div>
 	);

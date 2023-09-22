@@ -19,8 +19,10 @@ const Project = ({ project }: Props) => {
 			<div className="project-number">
 				<h3>{`PROJECT_0${project.id}`}</h3>
 				<div className="tech-wrapper">
-					{project.techStack.map((tech,index) => (
-						<p className="tech" key={index}>{tech}</p>
+					{project.techStack.map((tech, index) => (
+						<p className="tech" key={index}>
+							{tech}
+						</p>
 					))}
 				</div>
 			</div>
@@ -42,10 +44,12 @@ const Project = ({ project }: Props) => {
 							<p>Code</p>
 							<AiFillGithub className="icon" />
 						</a>
-						<a className="link" href={project.demoLink} target="_blank">
-							<p>Live Demo</p>
-							<FiExternalLink className="icon" />
-						</a>
+						{project.demoLink !== "" && (
+							<a className="link" href={project.demoLink} target="_blank">
+								<p>Live Demo</p>
+								<FiExternalLink className="icon" />
+							</a>
+						)}
 					</div>
 				</div>
 			</div>
