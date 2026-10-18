@@ -13,19 +13,18 @@ const About = () => {
             <h2>Based in Zagreb, Croatia</h2>
           </div>
           <p>
-            I’m a Frontend Developer with 2+ years of professional experience
-            building modern, scalable web applications. My expertise includes
-            React, Next.js, React Native, Vue.js, TypeScript, TailwindCSS,
-            Strapi, and API integrations (REST & GraphQL).
+            I’m a Software Engineer at b2match with 3+ years of professional
+            experience. I work across the whole product, from TypeScript and
+            React interfaces to backend services, APIs and databases, and I’m
+            comfortable picking up whatever language or framework the problem
+            needs.
           </p>
           <p>
             I’ve delivered a range of projects, from corporate websites and B2B
-            SaaS platforms to dynamic dashboards, admin tools, and
-            customer-facing applications. My focus is on creating responsive,
-            performant, and maintainable solutions with clean code and modern
-            development practices. I thrive in collaborative environments, enjoy
-            solving complex technical challenges, and always aim to deliver
-            user-friendly products that create business value.
+            SaaS platforms to dashboards, admin tools and customer-facing
+            applications. Outside work I build tools for very real problems,
+            like planning every curb and cable in my own house. I care about
+            software that is reliable, maintainable and pleasant to use.
           </p>
         </div>
         <div className="right">

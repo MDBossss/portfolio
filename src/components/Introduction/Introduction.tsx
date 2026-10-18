@@ -12,12 +12,12 @@ const Introduction = () => {
       <div className="hero">
         <div className="left">
           <h1>
-            <span>Hello, I'm Mislav.</span> <br /> Full-stack Web{" "}
-            <span className="gradient">Developer.</span>
+            <span>Hello, I'm Mislav.</span> <br /> Software{" "}
+            <span className="gradient">Engineer.</span>
           </h1>
           <p className="small-about">
-            With a keen eye for detail and a passion for clean code, I focus on
-            developing rich web applications and seamless web experiences.
+            I build software end to end, from the database to the interface,
+            and tools that solve real problems, like planning my own house.
           </p>
           <div className="socials">
             <a href="https://github.com/MDBossss" target="_blank">
