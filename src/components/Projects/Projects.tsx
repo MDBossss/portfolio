@@ -4,6 +4,33 @@ import Project from "../Project/Project"
 const projects = [
     {
         id: 1,
+        title: "Obrub",
+        description: "A curb planner for yards and driveways. Import a Photoshop outline or draw the shapes, mark where the concrete curbs go, and get every piece, cut and mitre worked out, with the cost and an A4 printout. Built with React, TypeScript and an SVG canvas.",
+        githubLink: "https://github.com/MDBossss/obrub",
+        demoLink: "",
+        techStack: ["React + Vite","TypeScript","SVG","Zustand","Playwright"],
+        image: "/obrub.png"
+    },
+    {
+        id: 2,
+        title: "Trasa",
+        description: "A wiring planner for a house. Draw conduits over the floor plan, lay out junction boxes with WAGO connectors to scale, plan Shelly and Sonoff smart switches, and get a full parts list. Built with React, TypeScript and Konva, hosted on Cloudflare.",
+        githubLink: "https://github.com/MDBossss/trasa",
+        demoLink: "https://trasa.trasa-auth.workers.dev/",
+        techStack: ["React + Vite","TypeScript","Konva","Zustand","Cloudflare Workers"],
+        image: "/trasa.png"
+    },
+    {
+        id: 3,
+        title: "Sentio",
+        description: "Describe your mood and Sentio builds a playlist for it with GPT-4o, finds every song on YouTube and plays it in the app. The frontend is four micro-frontends in React, Vue and Solid, joined at runtime with Module Federation.",
+        githubLink: "https://github.com/MDBossss/sentio",
+        demoLink: "",
+        techStack: ["React","Vue.js","Solid.js","Module Federation","Node.js","Express.js","Prisma","OpenAI","Clerk"],
+        image: "/sentio.png"
+    },
+    {
+        id: 4,
         title: "Examium",
         description: "A collaborative and customizable quiz platform that allows users to create and take tests, incorporating the OpenAI API for coding question evaluation. Built using React + Vite, Tailwind, Clerk, Supabase, Node.js, Prisma and MySQL.",
         githubLink: "https://github.com/MDBossss/examium",
@@ -11,34 +38,6 @@ const projects = [
         techStack: ["React + Vite","Tailwind","TypeScript","Node.js","Express.js","Clerk","Supabase","Prisma","MySQL"],
         image: "/examium.png"
     },
-    {
-        id: 2,
-        title: "HotelHub",
-        description: "HotelHub is a fullstack hotel room reservation app which allows users to browse, filter and book a variety of hotel rooms across multiple locations, as well as look at other people's reviews and posts. Built using React + Vite, TypeScript, SASS, Node.js, Express.js and Supabase.",
-        githubLink: "https://github.com/MDBossss/HotelHub",
-        demoLink: "https://hotel-hub-client.vercel.app/",
-        techStack: ["React + Vite","SASS", "TypeScript", "Node.js", "Express.js","Supabase"],
-        image: "/hotelhub.png"
-    },
-    {
-        id: 3,
-        title: "Hotcoin",
-        description: "Hotcoin is a React project focused on cryptocurrency data. Using multiple api's it displays latest crypto-related news as well as top 100 cryptocurrencies along with their price data. The app utilizes Firebase for user auth and data storage.",
-        githubLink: "https://github.com/MDBossss/hotcoin",
-        demoLink: "https://hotcoin.vercel.app/",
-        techStack: ["React","SASS","Firebase"],
-        image: "/hotcoin.png"
-    },
-    {
-        id: 4,
-        title: "xoOnline",
-        description: "xoOnline is a simple tic-tac-toe game with online multiplayer support where players can create new rooms and seamlessly connect to existing ones with a quick-join feature. Built using React + Vite, SASS, Node.js, Express.js and socket.io",
-        githubLink: "https://github.com/MDBossss/xoOnline",
-        demoLink: "https://xo-online.vercel.app/",
-        techStack: ["React + Vite","SASS", "Node.js", "Express.js","socket.io"],
-        image: "/xoonline.png"
-    },
-    
     {
         id: 5,
         title: "Span Hackathon 2023 app",
@@ -48,7 +47,6 @@ const projects = [
         techStack: ["React + Vite","SASS", "Firebase", "Node.js","Express.js","MySQL"],
         image: "/hackathon.png"
     },
-    
 ]
 
 

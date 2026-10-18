@@ -28,7 +28,7 @@ const Project = ({ project }: Props) => {
 			</div>
 			<div className="top">
 				<div className="left">
-					<a href={project.demoLink} target="_blank">
+					<a href={project.demoLink || project.githubLink} target="_blank">
 						<img src={project.image} alt="showcase" />
 					</a>
 				</div>
